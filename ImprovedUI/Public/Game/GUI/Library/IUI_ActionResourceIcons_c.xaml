@@ -515,5 +515,13 @@
 		</ControlTemplate.Resources>
 		<ContentControl ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
 	</ControlTemplate>
-	<!-- EDIT HERE -->
+	<ControlTemplate x:Key="ActionResources.ActionGroup.FightingSpiritGroup" TargetType="ls:LSActionPoint">
+		<ControlTemplate.Resources>
+			<ImageSource x:Key="Highlight">/GustavNoesisGUI;component/Assets/Ronin/ActionResources_c/Icons/c_ico_classRes_Ronin_high.png</ImageSource>
+			<ImageSource x:Key="Available">/GustavNoesisGUI;component/Assets/Ronin/ActionResources_c/Icons/c_ico_classRes_Ronin_d.png</ImageSource>
+			<ImageSource x:Key="Used">/GustavNoesisGUI;component/Assets/Ronin/ActionResources_c/Icons/c_ico_classRes_Ronin_spent.png</ImageSource>
+			<ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/Ronin/ActionResources_c/Icons/c_ico_classRes_Ronin_missing.png</ImageSource>
+		</ControlTemplate.Resources>
+		<ContentPresenter ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
+	</ControlTemplate>
 </ResourceDictionary>
