@@ -705,7 +705,9 @@
 			<DataTrigger Binding="{Binding SubclassIDString}" Value="DeathSoul">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/DeathSoul/ClassIcons/sorcerer_DeathSoul.dds"/>
 			</DataTrigger>
-			<!--EDIT HERE-->
+			<DataTrigger Binding="{Binding SubclassIDString}" Value="Samurai">    
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Ronin/ClassIcons/Ronin.png"/>
+	</DataTrigger>
 		</Style.Triggers>
 	</Style>
 
