@@ -195,8 +195,8 @@
 	<ImageSource x:Key="DWE_UAStepsOfTheFeyChargeUnavailable">pack://application:,,,/GustavNoesisGUI;component/Assets/UAArchfey/Shared/Resources/ico_classRes_DWE_UAStepsOfTheFeyCharge_missing.png</ImageSource>
 	<ImageSource x:Key="StowedSoul">pack://application:,,,/GustavNoesisGUI;component/Assets/TieflingOfHades/Shared/Resources/ico_styxTiefling_stowedSoul_d.png</ImageSource>
 	<ImageSource x:Key="StowedSoulUnavailable">pack://application:,,,/GustavNoesisGUI;component/Assets/TieflingOfHades/Shared/Resources/ico_styxTiefling_stowedSoul_missing.png</ImageSource>
-	<ImageSource x:Key="FightingSpirit">pack://application:,,,/GustavNoesisGUI;component/Assets/Ronin/Shared/Resources/ico_classRes_Roning_d.png</ImageSource>
-	<ImageSource x:Key="FightingSpiritUnavailable">pack://application:,,,/GustavNoesisGUI;component/Assets/Ronin/Shared/Resources/ico_classRes_Ronin_missing.png</ImageSource>	
+	<ImageSource x:Key="FightingSpirit">pack://application:,,,/GustavNoesisGUI;component/Assets/Samurai/Shared/Resources/ico_classRes_Samuraig_d.png</ImageSource>
+	<ImageSource x:Key="FightingSpiritUnavailable">pack://application:,,,/GustavNoesisGUI;component/Assets/Samurai/Shared/Resources/ico_classRes_Samurai_missing.png</ImageSource>	
 
 	<!-- This is the icon that appears on the tooltip -->
 	<Style TargetType="Image" x:Key="IUI_ActionResourceTypeIdToSource" BasedOn="{StaticResource IUI_ActionResourceTypeIdToSourceDefault}">
@@ -1846,10 +1846,10 @@
 
 	<ControlTemplate x:Key="ActionResources.ActionGroup.FormOfDreadPointGroup" TargetType="ls:LSActionPoint">
 		<ControlTemplate.Resources>
-			<ImageSource x:Key="Highlight">/GustavNoesisGUI;component/Assets/Ronin/Shared/Resources/ico_classRes_Ronin_high.png</ImageSource>
-			<ImageSource x:Key="Available">/GustavNoesisGUI;component/Assets/Ronin/Shared/Resources/ico_classRes_Ronin_d.png</ImageSource>
-			<ImageSource x:Key="Used">/GustavNoesisGUI;component/Assets/Ronin/Shared/Resources/ico_classRes_Ronin_spent.png</ImageSource>
-			<ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/Ronin/Shared/Resources/ico_classRes_Ronin_missing.png</ImageSource>
+			<ImageSource x:Key="Highlight">/GustavNoesisGUI;component/Assets/Samurai/Shared/Resources/ico_classRes_Samurai_high.png</ImageSource>
+			<ImageSource x:Key="Available">/GustavNoesisGUI;component/Assets/Samurai/Shared/Resources/ico_classRes_Samurai_d.png</ImageSource>
+			<ImageSource x:Key="Used">/GustavNoesisGUI;component/Assets/Samurai/Shared/Resources/ico_classRes_Samurai_spent.png</ImageSource>
+			<ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/Samurai/Shared/Resources/ico_classRes_Samurai_missing.png</ImageSource>
 		</ControlTemplate.Resources>
 		<ContentPresenter ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
 	</ControlTemplate>
